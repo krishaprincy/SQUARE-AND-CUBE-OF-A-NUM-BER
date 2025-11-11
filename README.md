@@ -16,7 +16,6 @@ To write and execute an Assembly language program for finding the square of a gi
 
 ## PROGRAM
 ```
-
 ORG 00H
 MOV R0,#50H
 MOV A,@R0
@@ -25,7 +24,6 @@ MUL AB
 INC R0
 MOV @R0,A
 END
-
 ```
 
 ## OUTPUT
@@ -34,7 +32,6 @@ END
 
 ## RESULT
 Thus, the square of the given data is calculated using 8051 Keil.
-
 
 
 # 8051 Cube  Program
@@ -68,7 +65,6 @@ MOV @R0,B
 END
 
 ```
-
 
 ## OUTPUT
 
